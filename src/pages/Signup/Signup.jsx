@@ -7,7 +7,7 @@ export default function Signup() {
     <div className="bg-white min-h-screen text-blueviolet font-Urbanist">
       <div className="flex justify-center items-center h-screen">
         <div className="max-w-xs text-center">
-          <p className="text-4xl font-semibold mb-10 text-link text-left">
+          <p className="text-4xl font-semibold mb-10 text-primary text-left">
             Let's
             <br /> Get Started
           </p>
@@ -34,7 +34,7 @@ export default function Signup() {
             />
           </div>
           <div className="mt-2">
-            <button className="bg-link w-full  text-white rounded-md px-4 py-2">
+            <button className="bg-primary w-full  text-white rounded-md px-4 py-2">
               Create
             </button>
           </div>
@@ -44,7 +44,7 @@ export default function Signup() {
               Alreay have an account?{" "}
               <Link
                 to={"/auth/login"}
-                className="text-link underline font-bold"
+                className="text-primary underline font-bold"
               >
                 Login now
               </Link>

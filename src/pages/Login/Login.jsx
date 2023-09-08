@@ -8,7 +8,7 @@ export default function Login() {
     <div className="bg-white min-h-screen text-blueviolet font-Urbanist">
       <div className="flex justify-center items-center h-screen">
         <div className="max-w-xs">
-          <p className="text-4xl font-semibold mb-10 text-link">
+          <p className="text-4xl font-semibold mb-10 text-primary">
             Welcome back!
             <br />
             Glad to see you,
@@ -31,7 +31,7 @@ export default function Login() {
             />
           </div>
           <div className="mt-2">
-            <button className="bg-link w-full  text-white rounded-md px-4 py-2">
+            <button className="bg-primary w-full text-white rounded-md px-4 py-2">
               Login
             </button>
           </div>
@@ -60,7 +60,10 @@ export default function Login() {
           <div className="mt-10 text-center">
             <p className="text-dark-gray">
               Don't have an account?{" "}
-              <Link to={"../signup"} className="text-link underline font-bold">
+              <Link
+                to={"../signup"}
+                className="text-primary underline font-bold"
+              >
                 Register now
               </Link>
             </p>

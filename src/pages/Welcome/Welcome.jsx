@@ -4,7 +4,7 @@ import "./Welcome.css";
 
 export default function Welcome() {
   return (
-    <div className="bg-violet-900 h-screen w-screen flex flex-col items-center">
+    <div className="bg-primary h-screen w-screen flex flex-col items-center">
       <div className="mt-12">
         <img
           className="w-90 h-90"
